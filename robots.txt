@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unfideductions.dokuwell.com/sitemap.xml
