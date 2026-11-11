@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For small CPG brands selling through UNFI: every deduction matched to its backup, invalid shortages and promo charges found and disputed.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">DeductionDesk</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">DeductionDesk</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Every UNFI deduction matched to its backup — and the invalid ones ready to dispute</h1>
-    <p class="sub">For emerging CPG brands selling through UNFI: upload your remittances and deduction backup, see each deduction by type, find the ones that do not match your records, and prepare the dispute.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For emerging CPG brands selling through UNFI</p>
+      <h1 class="rise" style="--i:1" data-len="long">Every UNFI deduction matched to its backup&nbsp;<span class="soft">— and the invalid ones ready to dispute</span></h1>
+      <p class="rise" style="--i:2">For emerging CPG brands selling through UNFI: upload your remittances and deduction backup, see each deduction by type, find the ones that do not match your records, and prepare the dispute.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">DeductionDesk</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">Remittances</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">backup</text><rect x="130" y="440" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="472" font-size="32" fill="#0a1524">by type</text><rect x="130" y="530" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="562" font-size="32" fill="#0a1524">dispute</text><rect x="700" y="260" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">Shortages</text><rect x="750" y="400" width="50" height="210" rx="8" fill="#12397a" /><rect x="830" y="480" width="50" height="130" rx="8" fill="#ffffff" /><rect x="910" y="440" width="50" height="170" rx="8" fill="#b9c3d2" /><rect x="990" y="520" width="50" height="90" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Emerging CPG brands</dd></div>
+      <div><dt>Does</dt><dd>Deduction matched</dd></div>
+      <div><dt>How</dt><dd>Upload your remittances</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Deduction matching</b><span>Each deduction on a remittance matched to its backup document.</span><br><a class="btn" href="price.html" data-ev="feature_match">I need this</a></div>
-      <div class="card"><b>By type</b><span>Shortages, MCB promo charges, spoilage, pricing differences and fees, each in its own list.</span><br><a class="btn" href="price.html" data-ev="feature_types">I need this</a></div>
-      <div class="card"><b>Questionable deductions</b><span>Deductions that do not match your promotions, prices or shipments are flagged.</span><br><a class="btn" href="price.html" data-ev="feature_flags">I need this</a></div>
-      <div class="card"><b>Dispute tracking</b><span>The documents for each dispute and its status until it is resolved.</span><br><a class="btn" href="price.html" data-ev="feature_disputes">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="110" font-size="32" font-weight="600" fill="#0a1524">Deduction matching</text><rect x="70" y="160" width="240" height="300" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="210" width="170" height="16" rx="8" fill="#dde2ea" /><rect x="100" y="250" width="130" height="16" rx="8" fill="#b9c3d2" /><rect x="100" y="290" width="150" height="16" rx="8" fill="#dde2ea" /><line x1="310" y1="230" x2="470" y2="230" stroke="#12397a" stroke-width="3" /><line x1="310" y1="290" x2="470" y2="270" stroke="#b9c3d2" stroke-width="3" /><line x1="310" y1="350" x2="470" y2="330" stroke="#dde2ea" stroke-width="3" /><rect x="470" y="160" width="260" height="300" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="210" width="190" height="16" rx="8" fill="#dfe8f7" /><rect x="500" y="250" width="150" height="16" rx="8" fill="#dde2ea" /><rect x="500" y="290" width="170" height="16" rx="8" fill="#b9c3d2" /><text x="100" y="510" font-size="30" fill="#566174">its backup</text></svg></div>
+        <h3>Deduction matching</h3><p>Each deduction on a remittance matched to its backup document.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_match">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="40" font-weight="600" fill="#0a1524">By type</text><line x1="160" y1="430" x2="660" y2="430" stroke="#dde2ea" stroke-width="3" /><rect x="190" y="250" width="64" height="180" rx="8" fill="#12397a" /><rect x="300" y="300" width="64" height="130" rx="8" fill="#b9c3d2" /><rect x="410" y="200" width="64" height="230" rx="8" fill="#dfe8f7" /><rect x="520" y="340" width="64" height="90" rx="8" fill="#dde2ea" /><text x="160" y="490" font-size="30" fill="#566174">promo charges</text></svg></div>
+        <h3>By type</h3><p>Shortages, MCB promo charges, spoilage, pricing differences and fees, each in its own list.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_types">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="110" y="130" font-size="30" font-weight="600" fill="#0a1524">Questionable deductions</text><rect x="140" y="200" width="420" height="36" rx="8" fill="#dde2ea" /><rect x="140" y="270" width="360" height="36" rx="8" fill="#b9c3d2" /><rect x="140" y="340" width="400" height="36" rx="8" fill="#dfe8f7" /><polygon points="560,332 610,358 560,384" fill="#12397a" /><text x="140" y="460" font-size="30" fill="#566174">do not match</text></svg></div>
+        <h3>Questionable deductions</h3><p>Deductions that do not match your promotions, prices or shipments are flagged.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_flags">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Dispute tracking</text><line x1="150" y1="280" x2="650" y2="280" stroke="#dde2ea" stroke-width="6" /><rect x="140" y="250" width="120" height="60" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="300" y="250" width="120" height="60" rx="28" fill="#dfe8f7" /><rect x="460" y="250" width="120" height="60" rx="28" fill="#12397a" /><circle cx="620" cy="280" r="28" fill="#b9c3d2" /><text x="140" y="420" font-size="30" fill="#566174">its status</text></svg></div>
+        <h3>Dispute tracking</h3><p>The documents for each dispute and its status until it is resolved.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_disputes">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Snack brand in 300 natural stores. One month's remittances: 42 deductions. 31 match agreed promotions; 6 MCB charges are for a promotion that ended; 3 shortages contradict signed proof of delivery; 2 pricing differences use an old cost. 11 deductions flagged, with backup attached, ready to dispute.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Snack brand in 300 natural stores. One month's remittances: 42 deductions. 31 match agreed promotions; 6 MCB charges are for a promotion that ended; 3 shortages contradict signed proof of delivery; 2 pricing differences use an old cost. 11 deductions flagged, with backup attached, ready to dispute.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="220" y1="160" x2="980" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="260" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="940" cy="160" r="22" fill="#12397a" /><text x="260" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">42 deductions</text><text x="600" y="250" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">31 match</text><text x="940" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">ready to dispute</text><rect x="120" y="310" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" font-weight="600" fill="#0a1524">11 deductions</text><text x="170" y="500" font-size="32" fill="#566174">proof of delivery</text><rect x="170" y="570" width="180" height="22" rx="8" fill="#dde2ea" /><rect x="370" y="570" width="220" height="22" rx="8" fill="#dfe8f7" /><rect x="610" y="570" width="140" height="22" rx="8" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>A small CPG brand that sells through UNFI does not receive the full invoice amount. Remittances come in with deductions for promotions, shortages, spoilage, pricing differences and various fees, and the backup for each one is in a different document. For a team of a few people, checking every deduction against promotion agreements, invoices and delivery records is the task that keeps sliding to next month. DeductionDesk makes it a routine.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>A small CPG brand that sells through UNFI does not receive the full invoice amount. Remittances come in with deductions for promotions, shortages, spoilage, pricing differences and various fees, and the backup for each one is in a different document. For a team of a few people, checking every deduction against promotion agreements, invoices and delivery records is the task that keeps sliding to next month. DeductionDesk makes it a routine.</p>
     <p>You upload remittances and deduction backup as you receive them. Each deduction is matched to its backup and sorted by type: shortages, MCB and other promotional charges, spoilage, pricing and cost differences, freight and other fees. Instead of one long list of amounts you see what kind of money is leaving and how much of it in each category.</p>
     <p>Then the service compares deductions with your own records: the promotions you agreed to and their dates, your current costs, and what was shipped and delivered. A promotional charge after a promotion ended, a shortage on an order with a signed delivery, a pricing difference based on an old cost — each is flagged as questionable, with the reason.</p>
     <p>For each flagged deduction the documents for a dispute are gathered in one place: the deduction, its backup, and your evidence. You submit the dispute through the distributor's process and record it in the service; its status is tracked until the money comes back or the dispute is closed.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>If you prefer not to do disputes yourself, a done-for-you option is available: we review and prepare disputes, and the fee is a share of what is recovered.</p>
     <p>Setup takes an afternoon. You enter your active promotions with their dates and agreed amounts, your current price list and your recent shipments, or upload them from the spreadsheets you already keep. From then on each new remittance is checked against these records as soon as you upload it. You can mark a deduction as accepted, as disputed or as written off, and the monthly summary shows how much was deducted, how much was disputed and how much came back.</p>
     <p>DeductionDesk is an independent service and is not affiliated with UNFI. Decisions on disputes are made by the distributor under your agreement with it.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>Emerging CPG brands that sell through UNFI and handle deductions with a small team.</p>
-    <h3>What files do I need?</h3>
-    <p>Your remittances and the deduction backup you receive, plus your promotion agreements and delivery records.</p>
-    <h3>Do you submit disputes for me?</h3>
-    <p>In the self-serve plan you submit them; in the done-for-you option we prepare them for you.</p>
-    <h3>Are you part of UNFI?</h3>
-    <p>No. DeductionDesk is an independent service.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether brands need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>Emerging CPG brands that sell through UNFI and handle deductions with a small team.</p></div>
+      <div class="split flip"><h3>What files do I need?</h3><p>Your remittances and the deduction backup you receive, plus your promotion agreements and delivery records.</p></div>
+      <div class="split flip"><h3>Do you submit disputes for me?</h3><p>In the self-serve plan you submit them; in the done-for-you option we prepare them for you.</p></div>
+      <div class="split flip"><h3>Are you part of UNFI?</h3><p>No. DeductionDesk is an independent service.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether brands need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Upload your first remittance</h2>
-    <p><label>Monthly deductions<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 20</option><option>21–50</option><option>51–150</option><option>More than 150</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Upload remittance</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Upload your first remittance</h2>
+    </div>
+    <div class="tile stack">
+      <label>Monthly deductions<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 20</option><option>21–50</option><option>51–150</option><option>More than 150</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Upload remittance</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>DeductionDesk</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Independent service, not affiliated with UNFI. Dispute decisions are made by the distributor under your agreement with it.</p>
+  <p>Independent service, not affiliated with UNFI. Dispute decisions are made by the distributor under your agreement with it.</p>
 </div></footer>
 
 </body>
